@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.div-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lateral {
+    width: 15%;
+    height: 100%;
+    background-color:#3333ff;
+}
+
+.menu {
+    height: 60%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+
+.link-menu {
+    color: #A9A9A9 !important;
+    text-decoration: none;
+}
+
+.link-menu:hover {
+    color: #FFFAF0 !important;
+}
+
+.conteudo-principal {
+    width: 85%;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Fira Mono', monospace;
+    overflow-y: scroll;
+    color: gray;
+}
+
+.div-espacamento {
+    height: 20%;
+}
+
+.div-imagem {
+    margin-bottom: 25px;
+}
+
+.imagem-perfil {
+    border-radius: 100%;
+    border: 10px solid #00001a;
+}
+
+.titulo {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 76px;
+    color: black !important;
+}
+
+.texto-vermelho {
+    color: #00ff00 !important;
+}
+
+.subtitulo {
+    font-size: 20px !important;
+    font-family: 'Crimson Text', serif;
+    color: gray !important;
+}
+
+.descricao-perfil {
+    width: 70%;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: black;
+}
+
+.sobre {
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.icone-rede-social {
+    font-size: 32px;
+    background-color: #262626;
+    color: white;
+    margin-right: 30px;
+    border-radius: 100%;
+    width: 30px;
+    border: 15px solid #262626;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icones-rede-social {
+    font-size: 50px;
+    background-color: white;
+    color: white;
+    margin-right: 30px;
+    width: 30px;
+    border: 15px solid white;
+    text-align: center;
+}
+
+.icones {
+    font-size: 20px;
+    background-color: white;
+    color: #3333ff;
+    margin-right: 5px;
+    width: 10px;
+}
+
+.link-rede-social {
+    color: white !important;
+    text-decoration: none;
+}
+
+.links-rede-social {
+    color: gray !important;
+    text-decoration: none;
+}
+
+.icone-rede-social:hover {
+    border: 15px solid #00ff00;
+    background-color: #00ff00;
+}
+
+.redes-sociais {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.divisor {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 0px;
+    left: 0px;
+}
+
+.divisor2 {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 50px;
+    left: 0px;
+}
+
+.divisor3 {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 70px;
+    left: 0px;
+}
+
+.hobbies-divisor {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 136px;
+    left: 0px;
+}
+
+.divisor-habilidades {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 115px;
+    left: 0px;
+}
+
+.divisor-superior {
+    width: 100%;
+    height: 1px;
+    left: 0px;
+}
+
+.segundo-divisor {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    left: 0px;
+}
+
+.escolaridade- {
+    margin-top: 50px;
+}
+
+.escolaridade {
+    width: 80%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.segundo-titulo {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 50px;
+    color: black !important;
+    padding-top: 50px;
+}
+
+.escolaridade-titulo {
+    font-weight: bold;
+    font-size: 18px;
+    color: black !important;
+    font-family: 'Uchen', serif;
+}
+
+.escolaridade-subtitulo {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Uchen', serif;
+    color: red;
+}
+
+.escolaridade-data {
+    color: #00ff00 !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.hobby {
+    margin-top: 50px;
+}
+
+.hobbies {
+    width: 70%;
+    margin-top: 50px;
+    position: relative;
+    color: black;
+    font-size: 20px;
+}
+
+.habilidades {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.habilidade {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.habilidades-icones {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 64px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.habilidades-icone {
+    margin-right: 35px;
+}
+
+.habilidades-icone:hover {
+    font-size: 80px !important;
+}
+
+.fa-html5:hover {
+    color: blue !important;
+}
+
+.fa-css3-alt:hover {
+    color: #FF4500 !important;
+}
+
+.fa-js-square:hover {
+    color: #FFFF00 !important;
+}
+
+.experiencia-subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+}
+
+.fa-film {
+    color: #009999 !important;
+    margin-right: 15px;
+}
+
+.fa-book-reader {
+    color: #595959 !important;
+    margin-right: 15px;
+}
+
+.fa-youtube {
+    color: red !important;
+    margin-right: 15px;
+}
+
+.fa-music {
+    color: #3333ff !important;
+    margin-right: 15px;
+}
+
+.fa-pray {
+    color: #800000 !important;
+    margin-right: 20px;
+}
+
+.fa-dumbbell {
+    color: #cccc00 !important;
+    margin-right: 14px;
+}
+
+.fa-laptop-code {
+    color: black !important;
+    margin-right: 14px;
+}
+
+.fa-bible {
+    color:  #3333ff !important;
+    margin-right: 22px;
+}
+
+.fa-hands-helping {
+    color: #008000 !important;
+    margin-right: 15px;
+}
+
+.fa-pizza-slice {
+    color: #D2691E !important;
+    margin-right: 18px;
+}
+
+.fa-place-of-worship {
+    color: #262626 !important;
+    margin-right: 15px;
+}
+
+.outros {
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.check {
+    margin-left: 40px;
+}
+
+.color {
+    background-color:#3333ff;
+}
+
+.interesse {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.interesses {
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+    margin-bottom: 230px;
+}
+
+.espacamento {
+    margin-left: 30px;
+}
+
+.cor {
+    color: black;
+    margin-left: 30px;
+}
+
+.fonte {
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+}
+
+.segunda-fonte {
+    font-family: 'Playfair Display', serif;
+}
+
+.fonts {
+    font-family: 'Uchen', serif;
+    color: black !important;
+    font-size: 16px;
+}
+
+.letra {
+    font-family: 'Libre Baskerville', serif;
+}
